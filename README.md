@@ -56,7 +56,7 @@ There is a directory `src` for the source code. There is already a file `main.f9
     - Read the comments at the top of `rsg.f` to see what input/output is required for the `rsg` subroutine. Call the subroutine, and print out the energies you obtain
 3. Compare the energies you get to the analytical energies (in atomic units):
 ```math
-E_n = -0.5/(n+\ell)^2.
+E_n = -\frac{0.5}{(n+\ell)^2}.
 ```
 4. Play around with different basis sizes and see what happens to your results.
   
