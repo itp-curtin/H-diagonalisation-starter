@@ -13,7 +13,7 @@ You will require a Linux/Unix-like command-line interface. Mac and Linux users c
 Windows users can download MobaXterm from https://mobaxterm.mobatek.net.
 
 If you have not used a command-line environment before, work through this tutorial first:
-https://ubuntu.com/tutorials/command-line-for-beginners.
+https://ubuntu.com/desktop/docs/en/latest/tutorial/the-linux-command-line-for-beginners.
 
 You should have had an account created for you on the Setonix supercomputer. 
 Enter this commend to log in:
