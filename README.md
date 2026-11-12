@@ -67,7 +67,7 @@ To run your code, enter
     - First declare any variables you think you might need, e.g. integers for loop indices and 2D arrays to store the Hamiltonian and overlap matrices. Use double precision (real*8) for all real numbers.
     - Read input from a file `data.in` to specify the basis size, exponential falloff parameter (alpha), and orbital angular momentum (l).
     - Allocate memory and use `do` loops to populate the matrices.
-    - Read the comments at the top of `rsg.f` to see what input/output is required for the `rsg` subroutine. Call the subroutine, and print out the energies you obtain
+    - Read the comments at the top of `rsg.f` to see what input/output is required for the `rsg` subroutine. Call the subroutine, and print out the energies you obtain.
 3. Compare the energies you get to the analytical energies (in atomic units):
 ```math
 E_n = -\frac{0.5}{(n+\ell)^2}.
