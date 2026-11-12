@@ -42,10 +42,24 @@ You will also see in this directory a file named `Makefile`. It is set up for yo
 ```bash
 make
 ```
-and it will compile you code you are about to write and create the executable `build/main`.
+and it will compile the code you are about to write and create the executable `build/main`.
 
 There is a directory `src` for the source code. There is already a file `main.f90` for you to write your code in, and another file
 `rsg.f` which contains the diagonalisation routine you will make use of. The `Makefile` knows about both of these files.
+
+To write your code, open the `main.f90` file with
+```bash
+vim src/main.f90
+```
+Then once your code is finished, build it with
+```bash
+make
+```
+To run your code, enter
+```bash
+./build/main
+```
+
 
 ## Exercises
 1. Read through the document `diagonalisation.pdf` to familiarise yourself with the problem. Discuss with your fellow students and ask for help from staff when anything is unclear.
