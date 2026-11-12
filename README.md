@@ -59,7 +59,8 @@ To run your code, enter
 ```bash
 ./build/main
 ```
-
+If you are not familiar with Fortran, read through this tutorial:
+https://fortran-lang.org/learn/quickstart/.
 
 ## Exercises
 1. Read through the document `diagonalisation.pdf` to familiarise yourself with the problem. Discuss with your fellow students and ask for help from staff when anything is unclear.
